@@ -63,7 +63,7 @@ Here is more information on these scenarios:
 
   - To restrict the issuance of RDS CALs, you can add RDS Host Servers into Terminal Server Computers group on RDS licensing server and then enable the License server security group policy setting on RDS licensing server.
 
-  - The License server security group policy setting is located in Computer Configuration\Policies\Administrative Templates\Windows Components\Remote \RD licensing and can be configured by using either the Local Group Policy Editor or the Group Console (GPMC).
+  - The License server security group policy setting is located in Computer Configuration\Policies\Administrative Templates\Windows Components\Remote Desktop Session Host\Licensing and can be configured by using either the Local Group Policy Editor or the Group Console (GPMC). 
 
 - RDS Host Servers are in one domain/forest and RDS licensing server is in another domain/forest
 
